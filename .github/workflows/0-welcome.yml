@@ -70,6 +70,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           rm .env
+          git add .
           git commit -m "remove .env file"
           git push
 
